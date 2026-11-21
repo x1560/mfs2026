@@ -1,0 +1,13 @@
+# data and precomputed artifacts are released separately
+data/
+*.pkl
+*.csv
+!S2018_survey_pairs.csv
+
+# run outputs
+_diag/
+results/
+temporal_factors.csv
+scarcity_params.pkl
+__pycache__/
+*.pyc
